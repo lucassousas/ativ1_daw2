@@ -42,6 +42,7 @@
             @csrf
             <input type="hidden" name="id" value="{{$carro->id}}"  class="form-control" />
             <button type="submit" class="btn btn-success"><i class="bi-save"></i> Salvar</button>
+            <a class="btn btn-primary" href="/carro"><i class="bi-plus-square"> Novo</i></a>
         </div>
     </form>
 @endsection
