@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get('/carro', [CarroController::class, "index"]);
 
-Route::POST('/carro', [CarroController::class, "salvar"]);
+Route::post('/carro', [CarroController::class, "salvar"]);
 
 Route::get('/carro/excluir/{id}', [CarroController::class, "excluir"]);
 
